@@ -1,0 +1,17 @@
+.rent{
+    padding-top: 80px;
+    &__wrapper{
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__shop{
+        width: 800px;
+        height: 150px;
+    }
+    &__name{
+        width: 584px;
+    }
+
+}

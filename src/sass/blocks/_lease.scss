@@ -1,0 +1,78 @@
+.lease{
+    padding-top: 20px;
+    min-height: 580px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__img{
+        &-1{
+            img{
+                width: 847px;
+                height: 464px;
+            } 
+        }
+        &-2{
+            display: none;
+            img{
+                width: 699px;
+                height: 383px;
+            }
+        }
+        &-3{
+            display: none;
+            img{
+                width: 490px;
+                height: 269px;
+            }
+        }
+        &-4{
+            display: none;
+            img{
+                width: 294px;
+                height: 162px;
+            }
+        }
+    }
+    &__block{
+        width: 530px;
+        min-height: 464px;
+        margin: 0;
+        line-height: 24px;
+    }
+    &__descr{
+        padding-top:24px;
+        font-size: 14px;
+        font-weight: 400;
+        color:#000000;
+    }
+    &__presentation{
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+    &__text{
+        font-size: 24px;
+        font-weight: 400;
+        color: #151516;
+    }
+    &__download{
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+        img{
+            cursor: pointer;
+        }
+    }
+    &__advantages{
+        padding-top: 34px;
+    }
+    &__subdescr{
+        padding-top: 28px;
+        font-size: 14px;
+        color:#000000;
+        font-weight: 400;
+    }
+    
+}

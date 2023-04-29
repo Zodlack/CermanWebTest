@@ -1,0 +1,113 @@
+.block{
+    padding: 0;
+    margin: 0;
+    padding-top: 31px;
+    padding-left: 19px;
+    &_pt{
+        padding-top: 0;
+    }
+    &_pl{
+        padding-left: 0;
+    }
+    &_pt34{
+        padding-top: 34px;
+    }
+    &_pt20{
+        padding-top: 20px;
+    }
+    &_pt27{
+        padding-top: 27px;
+    }
+    &__info{
+        line-height: 48px;
+        list-style-type: none;
+        font-weight: 400;
+        color: #151516;
+        &_lh{
+            line-height: 40px;
+        }
+        &_lh16{
+            line-height: 16px;
+            font-size: 16px;
+            color:#6B7073;
+            font-weight:700;
+            padding-top: 14px;
+            &:nth-child(1){
+                padding-top: 0;
+            }
+        }
+        &_lh24{
+            line-height: 24px;
+        }
+        &_lh29{
+            line-height: 29px;
+        }
+        &_fz{
+            font-size: 14px;
+        }
+        &_lst{
+            list-style-type: disc;
+            color:$color_red;
+            span{
+                color:#151516;
+            }
+        }
+        &_sp{
+            span{
+                color: #151516;
+                font-size: 36px;
+                line-height: 44px;
+            }
+        }
+        &_lh20{
+            line-height: 20px;
+        }
+        &_lh17{
+            line-height: 17px;
+        }
+        &_ft{
+            padding-top: 32px;
+            &:nth-child(1){
+                padding-top: 0;
+            }
+        }
+        &_ftl{
+            padding-top: 21px;
+            &:nth-child(1){
+                padding-top: 0;
+            }
+        }
+    }
+    &__link{
+        text-decoration: none;
+        color: #151516;
+        font-size: 20px;
+        font-weight: 400;
+        cursor: pointer;
+        &_fz{
+            font-size: 16px;
+        }
+        &_fz14{
+            font-size: 14px;
+        }
+        &_fz24{
+            font-size: 24px;
+            font-weight: 700;
+        }    
+        &:after	{
+            content: '';
+            display: block;
+            height: 1px;
+            background-color:$color_red;  
+            width: 0%;
+            transition: 0.3s all;
+        }
+        &:hover{
+            text-decoration: none;
+            color:#151516;
+            &:after{
+                width: 40px;
+            }
+        }
+    }
+}

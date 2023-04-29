@@ -1,0 +1,38 @@
+.characteristic{
+    padding-top: 80px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__general{
+        width: 189px;
+    }
+    &__photo{
+        display: flex;
+        justify-content: space-between;
+        &-1{
+            width: 427px;
+            img{
+                max-width: 400px;
+                height: 356px;
+            }
+        }
+        &-2{
+            width: 629px;
+            img{
+                max-width: 604px;
+                height: 356px;
+            }
+        }
+        &-3{
+            display: none;
+        }
+        &-4{
+            display: none;
+        }
+        &-5{
+            display: none;
+        }
+    }
+}
